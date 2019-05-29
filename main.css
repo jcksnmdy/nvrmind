@@ -1,0 +1,38 @@
+#headName {
+        font-size: 100px;
+        color: rgb(167, 8, 8);
+        text-align: center;
+        background-color: rgba(0, 0, 202, 0.733);
+        
+}
+body {
+        background-color: rgba(53, 167, 8, 0.733);
+}
+#masters {
+        font-size: 100px;
+        width: 500px;
+        background-color: orange;
+        height: 400px;
+}
+#players {
+        font-size: 100px;
+        width: 500px;
+        background-color: red;
+        height: 400px;
+}
+#new {
+        font-size: 100px;
+        width: 500px;
+        background-color: orange;
+        height: 400px;
+}
+#join {
+        font-size: 100px;
+        width: 500px;
+        background-color: red;
+        height: 400px;
+}
+#chooseStation {
+        text-align: center;
+
+}
