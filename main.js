@@ -1,6 +1,4 @@
-page = 0
 function setup() {
-        page = 0
         window.location = 'index.html';
 }
 var mainClock = setInterval(main, 30)
@@ -8,18 +6,31 @@ function main() {
         console.log(page)
 }
 function newGame() {
-        page = 1
         window.location = 'new.html';
 }
 function joinGame() {
-        page = 2
         window.location = 'join.html';
 }
 function masterActive() {
-        page = 3
         window.location = 'master.html';
 }
 function playerActive() {
-        page = 4
         window.location = 'player.html';
+}
+function hide() {
+        window.location = 'code.html';
+}
+function showCode() {
+        codeVar1 = Math.floor(Math.random() * (+9 - +0)) + +0;
+        codeVar2 = Math.floor(Math.random() * (+9 - +0)) + +0;
+        codeVar3 = Math.floor(Math.random() * (+9 - +0)) + +0;
+        codeVar4 = Math.floor(Math.random() * (+9 - +0)) + +0;
+        codeVar5 = Math.floor(Math.random() * (+9 - +0)) + +0;
+        codeVar6 = Math.floor(Math.random() * (+9 - +0)) + +0;
+        document.getElementById("code").innerHTML = (codeVar1 + "" + codeVar2 + "" + codeVar3 + "" + codeVar4 + "" + codeVar5 + "" + codeVar6);
+        document.getElementById("begin").scrollIntoView();
+}
+function begin() {
+        window.location = 'play.html';
+
 }
