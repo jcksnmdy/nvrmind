@@ -1,1 +1,0 @@
-# jcksnmdy.github.io
